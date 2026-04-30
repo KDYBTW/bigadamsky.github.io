@@ -493,7 +493,10 @@
     animation: fadeUp 1s 1.5s forwards;
     width: max-content;
     max-width: calc(100vw - 24px);
-
+    height: auto !important;
+    max-height: max-content;
+    top: auto !important;
+    bottom: calc(16px + env(safe-area-inset-bottom));
   }
 
   .nav-item {
